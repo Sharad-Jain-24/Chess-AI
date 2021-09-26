@@ -1,0 +1,15 @@
+https://pypi.org/project/pygame/
+
+https://pypi.org/project/tkintertable/
+
+https://pypi.org/project/python-chess/
+
+https://stackabuse.com/minimax-and-alpha-beta-pruning-in-python/
+
+https://www.draw.io/
+
+https://www.fide.com/FIDE/handbook/LawsOfChess.pdf
+
+https://handbook.fide.com/
+
+https://www.w3schools.com/python/python_modules.asp

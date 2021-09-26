@@ -1,0 +1,14 @@
+view.py: init_new_game()
+controller.py: __init__()
+controller.py: init_model()
+model.py: __init__()
+model.py: reset_to_initial_locations()
+piece.py: create_piece()
+configuration.py: SHORT_NAME
+view.py: __init__()
+view.py: create_chess_base()
+view.py: create_top_menu()
+view.py: create_file_menu()
+view.py: on_new_game_menu_clicked()
+view.py: start_new_game()
+view.py: 

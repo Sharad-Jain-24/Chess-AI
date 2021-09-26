@@ -1,0 +1,10 @@
+GUI:
+board, pieces, timer, move list
+
+ML/DL:
+decide & train model
+
+opening book
+
+api
+

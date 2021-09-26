@@ -1,0 +1,21 @@
+from configparser import ConfigParser
+
+config = ConfigParser()
+config.read('../data/chess_options.ini')
+config.set('chess_moves', 'move_count', "0")
+open('../data/temp_move_list_pgn.txt', 'w').close()
+open('../data/temp_move_list_fen.txt', 'w').close()
+config.set('castle_rights', 'wking_moved', "False")
+config.set('castle_rights', 'bking_moved', "False")
+config.set('castle_rights', 'wrook1_moved', "False")
+config.set('castle_rights', 'wrook2_moved', "False")
+config.set('castle_rights', 'brook1_moved', "False")
+config.set('castle_rights', 'brook2_moved', "False")
+config.set('draw_status', 'white_draw_offer', "False")
+config.set('draw_status', 'black_draw_offer', "False")
+config.set('ai_stats', 'promo', "0")
+config.set('ai_stats', 'is_ai', "False")
+config.set('ai_stats', 'ai_strength', "2")
+config.set('ai_stats', 'ai_color', "white")
+with open('../data/chess_options.ini', 'w') as config_file:
+    config.write(config_file)

@@ -1,0 +1,42 @@
+Piece Controls:
+* King moves 1 step in all (ORTHOGONAL + DIAGONAL) directions
+* Queen moves n steps in all (ORTHOGONAL + DIAGONAL) directions
+* Bishop moves n steps in DIAGONAL direction of same color
+* Knight moves L steps
+* Rook moves n  steps in ORTHOGONAL direction
+* Pawn moves 1 step in forward direction
+
+Special Controls:
+* Castling Move:
+  * King hasn't been moved
+  * King is not in check
+  * King path for castling shouldn't be under attack
+  * Rook hasn't been moved
+  * Rook not captured
+
+* Double Pawn Move:
+  * Pawn hasn't been moved
+  * only possible if path not blocked
+
+* En-Passant Move:
+  * Opponent pawn in adjacent square
+  * Opponent pawn in adjacent square made double pawn move
+  * Only possible in 4th & 5th ranks
+  * If above conditions are met, & player makes non en-passant move then en-passant right is forfeited
+
+* Pawn Promotion:
+  * If a pawn reaches end rank in its direction it can be promoted
+  * In promotion the pawn can be converted into any piece (except king) by player.
+
+Board Rules:
+* Must follow all the above rules
+* Only legal moves can be made
+* If a player resigns the Opponent wins
+* If a player offers draw opponent can choose to accept or decline it
+* If a player runs out of time the opponent wins
+
+Features:
+* Move Log displayed simultaneously
+* Move log can be saved as PGN, FEN, TXT file
+* UI board color scheme can be changed
+* Clock timer can be modified before start of game
